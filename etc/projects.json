@@ -1,0 +1,31 @@
+[
+    {
+        "name": "SnapJot",
+        "description": "Create, Save, & Share notes. All for free.",
+        "url": "https://snapjot.zirc.lol"
+    },
+
+    {
+        "name": "PyBlog",
+        "description": "Blog template made in Python and Flask.",
+        "url": "https://github.com/LolzTheDev/py-blog"
+    },
+
+    {
+        "name": "LazyCode",
+        "description": "Honestly, I don't really know.",
+        "url": "https://github.com/LolzTheDev/lazy-code"
+    },
+
+    {
+        "name": "My Blog",
+        "description": "My personal blog. JS, EJS, Tailwind.",
+        "url": "https://blog.zirc.lol/posts/home"
+    },
+
+    {
+        "name": "BD Themes",
+        "description": "Some BetterDiscord themes I've made.",
+        "url": "https://github.com/LolzTheDev/bd-themes"
+    }
+]
