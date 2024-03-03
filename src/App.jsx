@@ -1,27 +1,15 @@
 import { Box } from "./components/Box"
+import projects from "../etc/projects.json"
 
 export function App() {
-    const projects = [
-        {
-            "name": "SnapJot",
-            "description": "Create, save, & share notes. All for free.",
-            "url": "https://snapjot.zirc.lol/"
-        },
-
-        {
-            "name": "PyBlog",
-            "description": "Blog template made entirely with Python.",
-            "url": "https://github.com/lolzthedev/py-blog"
-        }
-    ]
-
     return (<>
         <div className="px-16 py-8">
-            <p className="dark:text-emerald-300 text-emerald-700 font-bold text-4xl">
+            <p className="dark:text-emerald-300 text-zinc-900 
+            font-bold text-5xl hover:scale-110 duration-500 w-fit cursor-default">
                 zirc.lol
             </p>
 
-            <p className="dark:text-gray-100 text-xl mr-[50%] my-3">
+            <p className="dark:text-zinc-100 text-xl mr-[50%] my-3">
                 Hi! I'm zirc, a web developer who enjoys making
                 projects in their free time. I have experience with VueJS,
                 ExpressJS, and EJS. I've made a few projects, feel free
@@ -32,7 +20,7 @@ export function App() {
                 Projects
             </p>
 
-            <div className="grid grid-cols-3">
+            <div className="grid grid-cols-3 pt-4">
                 { projects.map((project) => {
                     return (
                         <Box title={project.name} 

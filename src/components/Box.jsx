@@ -1,9 +1,10 @@
 export function Box(props) {
     return (<>
-        <div className="m-4 p-4 
-        dark:bg-gray-800 dark:border-gray-500 
-        bg-emerald-200 border-emerald-500
-        border-2 rounded-xl">
+        <div className="m-4 p-4 hover:scale-105 duration-500
+        dark:bg-zinc-800 dark:border-zinc-500 
+        bg-zinc-200 dark:border-emerald-500 border-zinc-700
+        border-2 rounded-xl shadow-md 
+        dark:shadow-emerald-800 shadow-zinc-500">
 
             <p className="text-xl font-semibold dark:text-emerald-200 text-gray-800">
                 {props.title}
@@ -13,9 +14,9 @@ export function Box(props) {
                 {props.description}
             </p>
 
-            <a href={props.url} className="dark:text-emerald-200 
-            text-emerald-900
-            cursor-pointer">
+            <a href={props.url} target="_blank" className="dark:text-emerald-200 
+            dark:font-medium font-bold
+            text-zinc-800 cursor-pointer">
                 Learn More
             </a>
 
